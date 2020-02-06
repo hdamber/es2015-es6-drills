@@ -26,6 +26,17 @@ getFirstNameConcise('TJ Hackett')
 
 
 
+let function1 = (a, b) => {
+    let aB = {
+        exponent: (a**b),
+        product: (a*b)
+    }
+    return aB
+} 
+console.log(function1(199, 27000));
+
+
+
 
 let para = (name, location, favFood) => {
     console.log(`${name}, ${location}, ${favFood}`)
